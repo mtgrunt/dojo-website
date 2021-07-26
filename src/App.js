@@ -1,14 +1,13 @@
 import './App.css';
+import Navbar from './Navbar'
+import Home from './Home'
 
 function App() {
-  const title = 'Welcome To My Website';
-  const delights = 50;
-
   return (
     <div className="App">
+      <Navbar />
       <div className="content">
-        <h1>{ title }</h1>
-        <p>Delighted { delights } times</p>
+        <Home />
       </div>
     </div>
   );
