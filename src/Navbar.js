@@ -1,13 +1,17 @@
 const Navbar = () => {
-    return ( 
-        <nav className="navbar">
-            <h1>Miles Wallace</h1>
-            <div className="links">
-                <a href="/">Home</a>
-                <a href="/blog">Blog</a>
-            </div>
-        </nav>
-     );
-}
- 
-export default Navbar;
+    return (
+      <nav className="navbar">
+        <h1>The Dojo Blog</h1>
+        <div className="links">
+          <a href="/">Home</a>
+          <a href="/create" style={{ 
+            color: 'white', 
+            backgroundColor: '#0b9106',
+            borderRadius: '8px' 
+          }}>New Blog</a>
+        </div>
+      </nav>
+    );
+  }
+   
+  export default Navbar;
