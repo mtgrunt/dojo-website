@@ -3,9 +3,9 @@ import BlogList from "./BlogList";
 
 const Home = () => {
   const [blogs, setBlogs] = useState([
-    { title: 'My new website', body: 'lorem ipsum...', author: 'mario', id: 1 },
-    { title: 'Welcome party!', body: 'lorem ipsum...', author: 'yoshi', id: 2 },
-    { title: 'Web dev top tips', body: 'lorem ipsum...', author: 'mario', id: 3 }
+    { title: 'My new website', body: 'lorem ipsum...', author: 'Bear', id: 1 },
+    { title: 'Welcome party!', body: 'lorem ipsum...', author: 'Guppy', id: 2 },
+    { title: 'Web dev top tips', body: 'lorem ipsum...', author: 'Cub', id: 3 }
   ])
 
   const handleDelete = (id) => {
