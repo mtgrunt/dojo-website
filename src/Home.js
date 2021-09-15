@@ -8,8 +8,6 @@ const Home = () => {
     { title: 'Web dev top tips', body: 'lorem ipsum...', author: 'Guppy', id: 3 }
   ]);
 
-  const [name, setName] = useState('Guppy');
-
   const handleDelete = (id) => {
     const newBlogs = blogs.filter(blog => blog.id !== id);
     setBlogs(newBlogs);
@@ -23,8 +21,6 @@ const Home = () => {
   return (
     <div className="home">
       <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
-      <button onClick={() => setName('Cub')}>Change Name</button>
-      <p>{ name }</p>
     </div>
   );
 }
